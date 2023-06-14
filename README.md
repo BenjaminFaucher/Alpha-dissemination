@@ -12,10 +12,12 @@ Data of Covid cases are retrieved from data repository hosted by the Center for 
 
 ## IDM
 
-The `IDM` concerns the International Dissemination Model. The code is provided in the `IDM.R` and `IDM_functions.R` files. To get the analysis of the paper, they must be used with the input data stored in `Input_IDM.RData` and `delays.RData` files.
+The `IDM` folder concerns the International Dissemination Model. The code is provided in the `IDM.R` and `IDM_functions.R` files. To get the analysis of the paper, they must be used with the input data stored in `Input_IDM.RData` and `delays.RData` files.
 The main output of the model are stored in `res_baseline.RData`, `sum_baseline.RData` and `sumcount_baseline.RData`.
 
 ## ATMA
+
+The files needed for Autochthonous Transmission Model A (ATMA) is stored in the `ATMA` folder with the code in `ATMA.R` and associated functions in `ATMA_functions.R`, `sim_epidemic_R.cpp` and `sim_epidemic_R2.cpp` files. The algorithm take as input the weekly reporduction rate estimates `weekly_R_estimate.csv` and the daily rates of importation estimated by the IDM stored in the `lambda.firstlo.csv` , `lambda.firstmed.csv` and `lambda.firstup.csv` files.
 
 
 
