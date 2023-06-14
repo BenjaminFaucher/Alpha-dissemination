@@ -21,5 +21,7 @@ The `IDM` folder pertains to the International Dissemination Model. The code for
 
 The files required for the Autochthonous Transmission Model A (ATMA) are stored in the `ATMA` folder. The code for the model can be found in the `ATMA.R` file, with associated functions in the `ATMA_functions.R`, `sim_epidemic_R.cpp`, and `sim_epidemic_R2.cpp` files. The algorithm takes as input the weekly reproduction rate estimates stored in the `weekly_R_estimate.csv` file, as well as the daily rates of importation estimated by the IDM, which are stored in the `lambda.firstlo.csv`, `lambda.firstmed.csv`, and `lambda.firstup.csv` files.
 
+## ATM B
 
+To have more information on ATM B code, please follow the link https://github.com/EPIcx-lab/COVID-19/tree/master/Adherence_and_sustainability
 
