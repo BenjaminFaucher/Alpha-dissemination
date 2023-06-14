@@ -12,5 +12,10 @@ Data of Covid cases are retrieved from data repository hosted by the Center for 
 
 ## IDM
 
-The `IDM` concerns the International Dissemination Model. The code is provided in the `IDM.R` and `IDM_functions.R` files. To get the analysis of the paper, they must be used with the input data stored in `Input_IDM.RData`
+The `IDM` concerns the International Dissemination Model. The code is provided in the `IDM.R` and `IDM_functions.R` files. To get the analysis of the paper, they must be used with the input data stored in `Input_IDM.RData` and `delays.RData` files.
+The main output of the model are stored in `res_baseline.RData`, `sum_baseline.RData` and `sumcount_baseline.RData`.
+
+## ATMA
+
+
 
