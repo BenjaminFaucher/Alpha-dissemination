@@ -14,7 +14,9 @@ The submitted sequences of human coronaviruses from August 15, 2020, to June 1, 
 
 ## IDM
 
-The `IDM` folder pertains to the International Dissemination Model. The code for this model is provided in the `IDM.R` and `IDM_functions.R` files. To replicate the analyses in the paper, these files must be used with the input data stored in the `Input_IDM.RData` and `delays.RData` files. The main outputs of the model are stored in the `res_baseline.RData`, `sum_baseline.RData`, and `sumcount_baseline.RData` files
+The `IDM` folder pertains to the International Dissemination Model. The code for this model is provided in the `IDM.R` and `IDM_functions.R` files. To replicate the analyses in the paper, these files must be used with the input data stored in the `Input_IDM.RData` and `delays.RData` files. The main outputs of the model are stored in the `res_baseline.RData`, `sum_baseline.RData`, and `sumcount_baseline.RData` files.
+
+The code needs the R package importFromUK (3.2), stored in `importFromUK_3.2.tar.gz`
 
 
 ## ATMA
