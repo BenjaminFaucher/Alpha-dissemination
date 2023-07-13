@@ -19,11 +19,11 @@ The `IDM` folder pertains to the International Dissemination Model. The code for
 The code needs the R package importFromUK (3.2), stored in `importFromUK_3.2.tar.gz`
 
 
-## ATMA
+## AM A
 
-The files required for the Autochthonous Transmission Model A (ATMA) are stored in the `ATMA` folder. The code for the model can be found in the `ATMA.R` file, with associated functions in the `ATMA_functions.R`, `sim_epidemic_R.cpp`, and `sim_epidemic_R2.cpp` files. The algorithm takes as input the weekly reproduction rate estimates stored in the `weekly_R_estimate.csv` file, as well as the daily rates of importation estimated by the IDM, which are stored in the `lambda.firstlo.csv`, `lambda.firstmed.csv`, and `lambda.firstup.csv` files.
+The files required for the Autochthonous Model A (AMA) are stored in the `AMA` folder. The code for the model can be found in the `AMA.R` file, with associated functions in the `AMA_functions.R`, `sim_epidemic_R.cpp`, and `sim_epidemic_R2.cpp` files. The algorithm takes as input the weekly reproduction rate estimates stored in the `weekly_R_estimate.csv` file, as well as the daily rates of importation estimated by the IDM, which are stored in the `lambda.firstlo.csv`, `lambda.firstmed.csv`, and `lambda.firstup.csv` files.
 
-## ATM B
+## AM B
 
-To have more information on ATM B code, please follow the link https://github.com/EPIcx-lab/COVID-19/tree/master/Adherence_and_sustainability
+To have more information on AM B code, please follow the link https://github.com/EPIcx-lab/COVID-19/tree/master/Adherence_and_sustainability
 
