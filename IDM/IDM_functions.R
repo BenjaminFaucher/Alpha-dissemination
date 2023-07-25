@@ -1,4 +1,3 @@
-
 prep.data.dynamic = function(VOC, date.thr, pop.uk=36E6, dt.sub=T, before=F) {
   
   # columns are expected to start at 1 with "date.ref" (date.ref -> column 1)
@@ -46,10 +45,10 @@ prep.data.dynamic = function(VOC, date.thr, pop.uk=36E6, dt.sub=T, before=F) {
   VOC
 }
 
-make.data.dynamic = function(first.VOC, screen, travel, date.thr, epidUK, freq.screening=NULL, min.freq=0,
+make.data.dynamic = function(first.VOC, screen, travel, date.thr, epidUK=NULL, freq.screening=NULL, min.freq=0,
                              delai.sub1=NULL,delai.sub2=NULL,date.change=as.Date("2020-12-18"),
                              index.country=NULL,pop.uk=38e6, M=NULL,R=NULL, r=NULL, 
-                             R.increase=0,K=0.5,K.UK=0.4,dt.sub=T, 
+                             R.increase=0,K=0.5,K.UK=0.4,dt.sub=T,
                              before=F,countries=NULL, s.increase=1, 
                              dt.s.increase=NULL, incub=4,
                              truncate=FALSE,T0.max=NULL,
@@ -58,6 +57,7 @@ make.data.dynamic = function(first.VOC, screen, travel, date.thr, epidUK, freq.s
   
   # add ahead to make projections, keeping tKps and delai and p 
   # add epidUK and t0Epid
+  
   
   VOC=merge(first.VOC,screen,by=0, all.y=T)
   VOC$Row.names=NULL
@@ -333,7 +333,7 @@ make.data.dynamic.UK =function(first.VOC, screen, travel,freq.screening, min.fre
   VOC = merge(VOC,freq.screening,by="country")
   VOC = VOC[VOC$freq>min.freq,]
   
-  if (!is.null(delai.sub)) { 
+  if (!is.null(delai.sub)) {
     VOC = merge(VOC,delai.sub,by="country") #adds mean/sd for delai
   }
   
@@ -2773,7 +2773,9 @@ MCMC.import.cpp <- function(param, init, data, sd=NULL,R=100,thin=20,warmup=5000
                   data$tKp, data$s, data$dt.s.increase, data$iUK-1,
                   data$delai.array, 
                   data$p.over.R, data$r, data$f_before_T0,
-                  typeEpid, data$epidUK, data$t0Epid,
+                  typeEpid, 
+                  data$epidUK, 
+                  data$t0Epid,
                   sd, data$T0.max,chain);
       res$res = matrix( res$res,ncol=12)
       colnames(res$res)=c("r","T0","r2","Tcp2","r3","Tcp3","k","s","logL","logLEpid","logPrior", "lp__")
