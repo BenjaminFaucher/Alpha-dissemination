@@ -32,6 +32,8 @@ The `Inputs.RData` contains :
 
 The code needs the R package importFromUK (3.2), stored in `importFromUK_3.2.tar.gz`
 
+The `output.csv` file contains the key output of the model : estimations of first collection date, first submission date and introduction date used in Fig. 2 and Fig. 3 of the main paper.
+
 
 ## AM A
 
