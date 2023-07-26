@@ -850,10 +850,7 @@ first.VOC$date.1st.sub <- as.Date(first.VOC$date.1st.sub)
 first.VOC$date.collection.lo <- as.Date(first.VOC$date.collection.lo)
 first.VOC$date.collection.up <- as.Date(first.VOC$date.collection.up)
 
-save(
-      list = c("delaysafter","delaysbefore","first.VOC","screening"),
-         file = "./Inputs_IDM.RData"
-    )
+save(delaysafter,delaysbefore,first.VOC,screening,file = "./Inputs_IDM.RData)
 
 
 
