@@ -5,6 +5,7 @@ packageVersion("importFromUK") # should be 3.2
 ################################
 # Import input data
 load("Inputs.RData")
+load("Inputs2.RData")
 
 date.ref = as.Date("2020-08-15")
 date.thr = as.Date("2020-12-31")
@@ -37,6 +38,9 @@ res= MCMC.import.cpp(param = c("r","T0","r2","s"),ll="pois",llEpid = NULL,
 sum = summary.MCMC.import(res,data)
 sum.count = summary.countries(sum,data)
 
+write.csv2(sum$distr$lambda.first$lo,"lambda.firstlo.csv")
+write.csv2(sum$distr$lambda.first$med,"lambda.firstmed.csv")
+write.csv2(sum$distr$lambda.first$up,"lambda.firstup.csv")
 
 ################################
 
