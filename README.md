@@ -16,6 +16,6 @@ Proprietary airline data, which are commercially available from OAG and IATA dat
 
 Processing raw data and creating input files for the International Dissemination Model (IDM). Source codes are available in the Data Processing folder. The code produces an RData file to be input in the IDM code.
 
-International Dissemination Model, provided in the IDM folder. The output of the code consists in three csv files that must be used to run AMA code.
+International Dissemination Model, provided in the IDM folder. The output of the code include three csv files that must be used to run AMA code.
 
 The autochthonous transmission model A and B. Source codes for the autochthonous transmission model A are provided in the AMA folder. The autochthonous transmission model B was published before (see https://github.com/EPIcx-lab/COVID-19/tree/master/Adherence_and_sustainability)
