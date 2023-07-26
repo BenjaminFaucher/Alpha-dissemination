@@ -1,4 +1,4 @@
-This repository contains the code used in the analyses presented in the paper: 
+This repository contains the code used in the analyses presented in the manuscript: 
 
 **Drivers and Impact of the Early Silent Invasion of SARS-CoV-2 Alpha**
 
