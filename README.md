@@ -8,9 +8,9 @@ Proprietary airline data, which are commercially available from OAG and IATA dat
 
 This repository is divided into three parts:
 
-The Data Processing folder contains the code to process the aforementioned data and compute inputs for the IDM (International Dissemination Model).
+The Data Processing folder contains the code to process the aforementioned data and compute inputs for the IDM (International Dissemination Model). The code produce a RData file that must be used in IDM code.
 
-The IDM folder pertains to the International Dissemination Model.
+The IDM folder pertains to the International Dissemination Model. The code produces three csv files that must be used to run AMA code.
 
 The AMA folder contains the code to run the AMA model (Adherence and Sustainability).
 
