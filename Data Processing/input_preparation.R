@@ -850,7 +850,9 @@ first.VOC$date.1st.sub <- as.Date(first.VOC$date.1st.sub)
 first.VOC$date.collection.lo <- as.Date(first.VOC$date.collection.lo)
 first.VOC$date.collection.up <- as.Date(first.VOC$date.collection.up)
 
-save(delaysafter,delaysbefore,first.VOC,screening,file = "./Inputs_IDM.RData)
+GISAID <- metadata
+
+save(delaysafter,delaysbefore,first.VOC,screening,GISAID,CSSE,file = "./Inputs_IDM.RData)
 
 
 
