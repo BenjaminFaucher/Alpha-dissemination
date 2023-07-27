@@ -11,5 +11,3 @@ Notes:
 Data about international travel are not publicly available owing to stringent licensing agreements. A dummy travel matrix is stored in inputs2.RData to make it possible to run the code.
 
 The code needs the R package importFromUK (3.2), stored in `importFromUK_3.2.tar.gz`
-
-The `output.csv` file contains the key output of the model: estimations of first collection date, first submission date, and introduction dates plotted in Fig. 2 and Fig. 3 of the main paper.
