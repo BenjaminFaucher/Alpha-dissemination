@@ -15,7 +15,7 @@ Proprietary airline data, which are commercially available from OAG and IATA dat
 **Overview on the analysis**
 
 Analysis was done using custom code in R (v4.3) and C (v11).
-Each code takes few minutes to run.
+Each code takes few minutes to run on normal desktop computer.
 
 The analysis consists of three main parts:
 
