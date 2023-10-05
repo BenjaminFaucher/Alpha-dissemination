@@ -1,5 +1,7 @@
 This repository contains the code used in the analyses presented in the manuscript: 
 
+Analysis was done using custom code in R (v4.3) and C
+
 **Drivers and Impact of the Early Silent Invasion of SARS-CoV-2 Alpha**
 
 by Benjamin Faucher, Chiara E. Sabbatini, Peter Czuppon, Moritz U.G. Kraemer, Philippe Lemey, Vittoria Colizza, Francois Blanquart, Pierre-Yves Boëlle, and Chiara Poletto.
