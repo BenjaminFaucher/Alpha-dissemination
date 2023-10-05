@@ -1,6 +1,7 @@
 This repository contains the code used in the analyses presented in the manuscript: 
 
-Analysis was done using custom code in R (v4.3) and C
+Analysis was done using custom code in R (v4.3) and C (v11).
+Codes takes few minutes to run.
 
 **Drivers and Impact of the Early Silent Invasion of SARS-CoV-2 Alpha**
 
