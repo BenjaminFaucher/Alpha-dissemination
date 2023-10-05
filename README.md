@@ -1,11 +1,10 @@
 This repository contains the code used in the analyses presented in the manuscript: 
 
-
 **Drivers and Impact of the Early Silent Invasion of SARS-CoV-2 Alpha**
 
 by Benjamin Faucher, Chiara E. Sabbatini, Peter Czuppon, Moritz U.G. Kraemer, Philippe Lemey, Vittoria Colizza, Francois Blanquart, Pierre-Yves Boëlle, and Chiara Poletto.
 
-**The analysis is based on the following data:**
+**Data Sources**
 
 Metadata associated with a total of 1,735,675 sequences available on GISAID and submitted between 15 Aug 2020 and 1 Jun 2021. The data were downloaded on 2 Jun 2021 via gisaid.org (GISAID: EPI_SET_230724tv). To view the contributors of each sequence associated with the metadata we used visit https://doi.org/10.55876/gis8.230724tv. 
 
@@ -16,7 +15,7 @@ Proprietary airline data, which are commercially available from OAG and IATA dat
 **Overview on the analysis**
 
 Analysis was done using custom code in R (v4.3) and C (v11).
-Codes takes few minutes to run.
+Code takes few minutes to run.
 
 The analysis consists of three main parts:
 
