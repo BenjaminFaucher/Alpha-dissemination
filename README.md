@@ -13,7 +13,12 @@ Daily numbers of COVID-19 cases by country obtained from the COVID-19 data repos
 
 Proprietary airline data, which are commercially available from OAG and IATA databases (https://www.iata.org/).
 
-**The analysis consists of three main parts:**
+**Overview on the analysis**
+
+Analysis was done using custom code in R (v4.3) and C (v11).
+Codes takes few minutes to run.
+
+The analysis consists of three main parts:
 
 Processing raw data and creating input files for the International Dissemination Model (IDM). Source codes are available in the Data Processing folder. The code produces an RData file to be input in the IDM code.
 
