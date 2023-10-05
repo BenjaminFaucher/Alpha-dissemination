@@ -1,7 +1,5 @@
 This repository contains the code used in the analyses presented in the manuscript: 
 
-Analysis was done using custom code in R (v4.3) and C (v11).
-Codes takes few minutes to run.
 
 **Drivers and Impact of the Early Silent Invasion of SARS-CoV-2 Alpha**
 
@@ -18,6 +16,9 @@ Proprietary airline data, which are commercially available from OAG and IATA dat
 **The analysis consists of three main parts:**
 
 Processing raw data and creating input files for the International Dissemination Model (IDM). Source codes are available in the Data Processing folder. The code produces an RData file to be input in the IDM code.
+
+Analysis was done using custom code in R (v4.3) and C (v11).
+Codes takes few minutes to run.
 
 International Dissemination Model, provided in the IDM folder. The output of the code include three csv files that must be used to run AMA code.
 
